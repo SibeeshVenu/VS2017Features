@@ -54,8 +54,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="RefractorDemo.cs" />
-    <Compile Include="Supplier.cs" />
+    <Compile Include="RefactorDemo.cs" />
+    <Compile Include="Sup.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
