@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfAppVS2017
 {
-    class RefractorDemo
+   public class RefractorDemo
     {
         private void ChangeObjectInitialize()
         {
@@ -29,5 +29,8 @@ namespace WpfAppVS2017
         {
             //var obj = Customer();
         }
+        
     }
+
+
 }
