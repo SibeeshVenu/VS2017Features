@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfAppVS2017
+namespace VS2017Features
 {
     public class RefactorDemo
     {

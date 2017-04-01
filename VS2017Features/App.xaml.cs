@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfAppVS2017
+namespace VS2017Features
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -1,4 +1,4 @@
-﻿namespace WpfAppVS2017
+﻿namespace VS2017Features
 {
     public class Customer
     {

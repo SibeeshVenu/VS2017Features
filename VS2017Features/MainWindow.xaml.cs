@@ -2,7 +2,7 @@
 using System.IO;
 using System.Windows;
 
-namespace WpfAppVS2017
+namespace VS2017Features
 {
     /// <summary>
     /// VS2017 Features 
