@@ -23,7 +23,7 @@
                 <DropShadowEffect BlurRadius="10"/>
             </Button.Effect>
         </Button>
-        <DataGrid x:Name="dgAll" HorizontalAlignment="Left" Height="152" VerticalAlignment="Top" Width="458" Margin="31,103,0,0">
+        <DataGrid x:Name="dgAll" HorizontalAlignment="Left" Height="152" VerticalAlignment="Top" Width="458" Margin="31,103,0,0" SelectionChanged="dgAll_SelectionChanged">
             <DataGrid.Effect>
                 <DropShadowEffect/>
             </DataGrid.Effect>

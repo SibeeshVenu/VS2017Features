@@ -30,9 +30,8 @@ namespace VS2017Features
 
         private void ShowVarPreferencesBeforeAndAfter()
         {
-            //var obj = Customer();
-            
-            
+            //var obj = new Customer();
+
             //Completion list when backspace or delete
         }
 

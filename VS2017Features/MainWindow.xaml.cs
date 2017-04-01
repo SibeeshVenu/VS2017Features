@@ -71,9 +71,13 @@ namespace VS2017Features
             cst = null;
             string nullError = cst.CustCode;
 
-        }       
+        }
 
         #endregion
-        
+
+        private void dgAll_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
