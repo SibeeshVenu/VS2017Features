@@ -1,6 +1,6 @@
 ﻿namespace VS2017Features
 {
-    public class Sup
+    public class Supplier
     {
 
     }
