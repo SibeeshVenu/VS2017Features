@@ -15,7 +15,7 @@ namespace VS2017Features
             InitializeComponent();
             lstCust = new List<Customer>();
         }
-        
+
         #region Click Events
 
         private void BtnLoadAll_Click(object sender, RoutedEventArgs e)
@@ -39,10 +39,18 @@ namespace VS2017Features
         #region Private Methods
         private void MakeFileDoesNotError()
         {
-            using (StreamReader myStrm = new StreamReader(@"F:\file.txt"))
+            try
             {
-                myStrm.ReadLine();
+                using (StreamReader myStrm = new StreamReader(@"F:\file.txt"))
+                {
+                    myStrm.ReadLine();
+                }
             }
+            catch (FileNotFoundException ex)
+            {
+                throw new FileNotFoundException("The file is not available", ex);
+            }
+
         }
 
         private static List<Customer> BuildCustomer()
